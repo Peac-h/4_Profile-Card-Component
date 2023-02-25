@@ -7,7 +7,7 @@ This Profile card component is one of the easy challenges, intended for newbie c
 Built in accordance with given references. Made beautiful for all size of devices.
 
 ## Checkout the live demo
-[QR code component](https://peac-h.github.io/4_Profile-Card-Component/)
+[Profile card component](https://peac-h.github.io/4_Profile-Card-Component/)
 
 ## Built with
 - html
