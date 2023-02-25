@@ -6,14 +6,15 @@ This Profile card component is one of the easy challenges, intended for newbie c
 
 Built in accordance with given references. Made beautiful for all size of devices.
 
-## Built with
+## Checkout the live demo
+[QR code component](https://peac-h.github.io/4_Profile-Card-Component/)
 
-- HTML
-- CSS
-- & LOVE
+## Built with
+- html
+- css
+- & love
 
 ## Author
-
-- Github - https://github.com/Peac-h
-- LinkedIn - https://www.linkedin.com/in/tamta-lomidze-b336b9266/
-- Twitter - https://twitter.com/p6eac_h
+- [Github](https://github.com/Peac-h)
+- [LinkedIn](https://www.linkedin.com/in/tamta-lomidze-b336b9266/)
+- [Twitter](https://twitter.com/p6eac_h)
