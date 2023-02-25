@@ -1,0 +1,147 @@
+:root {
+  --color-dark-cyan: hsl(185, 75%, 39%);
+  --color-dark-blue: hsl(229, 23%, 23%);
+  --color-grayish-blue: hsl(227, 10%, 46%);
+  --color-gray: hsl(0, 0%, 59%);
+  --color-light-gray: hsl(225, 10%, 92%);
+  --color-white: #fff;
+
+  --font-family-main: "Kumbh Sans", sans-serif;
+  --font-family-secondary: "Grape Nuts", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 19em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+body {
+  font-family: var(--font-family-main);
+  background-color: var(--color-dark-cyan);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 40vh, left 50vw top 50vh;
+
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+}
+
+main {
+  min-height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  max-width: 35rem;
+  min-height: 37.4rem;
+  background-color: var(--color-white);
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 1.5rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.profile__cover {
+  max-width: 100%;
+}
+
+.profile__img {
+  max-width: 9.6rem;
+  border-radius: 50%;
+  border: 0.5rem solid var(--color-white);
+  margin-top: -5rem;
+}
+
+.profile__name {
+  color: var(--color-dark-blue);
+  display: flex;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.profile__name span {
+  font-weight: 400;
+  color: var(--color-grayish-blue);
+}
+
+.profile__city {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: var(--color-grayish-blue);
+  border-bottom: 1px solid var(--color-light-gray);
+  padding-bottom: 2.8rem;
+}
+
+.profile__info {
+  min-height: 8.8rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: var(--color-dark-blue);
+}
+
+.profile__followers,
+.profile__likes,
+.profile__photos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.profile__info span {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.24rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: var(--color-grayish-blue);
+}
+
+.attribution {
+  min-height: 3vh;
+  font-size: 1.2rem;
+  text-align: end;
+  margin-right: 1rem;
+  color: var(--color-dark-blue);
+}
+
+.attribution a {
+  color: var(--color-light-gray);
+}
+
+.attribution a:last-child {
+  font-family: var(--font-family-secondary);
+  font-size: 1.6rem;
+}
+
+.mb-sm {
+  margin-bottom: 1.3rem;
+}
+
+.mb-md {
+  margin-bottom: 1.9rem;
+}
