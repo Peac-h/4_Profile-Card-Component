@@ -9,6 +9,8 @@ Built in accordance with given references. Made beautiful for all size of device
 ## Checkout the live demo
 [Profile card component](https://peac-h.github.io/4_Profile-Card-Component/)
 
+![Profile card component](https://raw.githubusercontent.com/Peac-h/4_Profile-Card-Component/main/Screenshot.png)
+
 ## Built with
 - html
 - css
